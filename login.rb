@@ -23,7 +23,7 @@ elem5.click
 
 
 #5 "正しいログインID、パスワードを入力し、ログインボタンを押す"
-driver.find_element(:id, 'login_uid').send_keys('root')
+driver.find_element(:id, 'login_uid').send_keys('')
 driver.find_element(:id, 'login_pwd').send_keys('')
 
 sleep 3
